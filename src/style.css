@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('blob:https://web.whatsapp.com/4ae7d6d4-9b92-4b7d-8666-8af1b90d20b7') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Navbar Styles */
+nav {
+  background: rgb(98, 98, 223);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  position: relative;
+  left: -112px;
+}
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Search Bar Styles */
+.search-container {
+  position: absolute; /* Positioning it below the navbar */
+  left: 50%;
+  transform: translateX(-50%); /* Center it horizontally */
+  margin-top: 0; /* Remove top margin */
+  display: flex; /* Ensure input and icon are aligned */
+  align-items: center;
+   /* Center the items vertically */
+   bottom: 550px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 280px; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 100px;
+}
+
+/* Suggestions Styles */
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ccc;
+  max-width: 250px; /* Match with input width */
+  position: absolute;
+  background: white;
+  z-index: 1000;
+  right: 300px;
+  top: 20px;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  width: 310px;
+}
+
+.suggestions li:hover {
+  background: #f0f0f0;
+}
+
+/* Product List Styles */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 200px; /* Adjust width as needed */
+  transition: transform 0.2s;
+  height: 400px;
+  background-color: #9ac3ee;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  font-size: smaller;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: lightcoral; /* Adjust color as needed */
+}
+
+/* Button Styles */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1879e0;
+}
+
+/* Header Styles */
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+}
+
+/* Footer Styles */
+footer {
+  background-color: blue;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.footer-links,
+.social-media {
+  margin: 20px 0;
+}
+
+.footer-links h3,
+.social-media h3 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul,
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li,
+.social-media li {
+  margin: 5px 0;
+}
+
+.footer-links a,
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a:hover,
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  justify-content: center;
+}
+
+.social-media li {
+  display: inline; /* Align icons in one line */
+  margin-right: 15px; /* Spacing between icons */
+}
+
+.social-media .fa-icon {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+/* Additional Styles to Remove Empty Space */
+html, body {
+  height: 100%; /* Ensure full height */
+}
+
+footer {
+  position: relative;
+  margin-top: auto; /* Ensure footer stays at the bottom */
+}
+.carousel .slide {
+  display: flex;
+  justify-content: center; /* Center images */
+}
+
+.carousel .slide img {
+  object-fit: cover; /* Ensure images cover their area */
+}
+
+
+
+  
+/* Product Card Styles */
+.product-card {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 15px; /* Margin between cards */
+  padding: 20px; /* Inner padding */
+  text-align: center; /* Center text */
+  transition: transform 0.2s; /* Smooth scale effect */
+  width: 220px; /* Fixed width */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-card img {
+  max-width: 100%; /* Responsive image */
+  height: 200px; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for image */
+}
+
+.product-card h3 {
+  font-size:smaller; /* Font size for title */
+  margin: 10px 0; /* Margin around title */
+  color: #333; /* Dark gray color */
+}
+
+.product-card p {
+  font-size: 1em; /* Font size for price */
+  color: #e63946; /* Highlight color for price */
+  margin: 5px 0; /* Margin around price */
+}
+
+.product-card button {
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Button padding */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background 0.3s; /* Smooth background change */
+}
+
+.product-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+

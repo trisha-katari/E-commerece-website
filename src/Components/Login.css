@@ -1,0 +1,326 @@
+/* /* body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+} */
+
+
+/* Register.css */
+
+/* General Body Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5; 
+  color: #333; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+}
+
+/* Login Form Styles */
+ /* #lform { */
+  /* text-align: center;
+  margin-bottom: 20px; 
+  color: #007bff;  */
+ /* } */ */
+
+/* .login {
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  padding: 30px; 
+  width: 300px;  
+}
+
+/* Label Styles */
+/* .login label {
+  display: block; 
+  margin: 10px 0 5px; 
+  font-weight: bold; 
+}
+
+/* Input Styles */
+/* .login input[type="text"],
+.login input[type="password"] {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 1em; 
+} */
+
+/* .login button {
+  width: 100%; 
+  padding: 10px; 
+  background-color: #007bff;
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1em; 
+  transition: background 0.3s;
+} */
+
+/* .login button:hover {
+  background-color: #0056b3; 
+}  */
+ 
+
+/* .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 300px; 
+  margin: 20px auto; 
+  padding: 20px;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+#lform {
+  font-size: 24px;
+  font-weight: bold; 
+  margin-bottom: 20px;
+  color: #333; 
+  text-align: center; 
+}
+
+.login label {
+  font-size: 14px;
+  margin: 10px 0 5px;
+  color: #555; 
+  display: block; 
+  width: 100%; 
+  text-align: left;
+}
+
+
+.login input {
+  width: 100%; 
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box; 
+  transition: border-color 0.3s ease; 
+}
+
+
+.login input:focus {
+  border-color: #4CAF50;
+  outline: none; 
+}
+
+.login button {
+  width: 100%; 
+  padding: 12px;
+  background-color: #4CAF50; 
+  color: white; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.login button:hover {
+ background-color: #4CAF50;
+} */
+
+
+/* Register.css */
+
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+/* Login Form Styles */
+#lform {
+  text-align: center;
+  margin-bottom: 20px; /* Space below the heading */
+  color: #007bff; /* Blue color for heading */
+}
+
+.login {
+  background-color: #fff; /* White background for form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 30px; /* Inner padding */
+  width: 300px; 
+  position: relative;
+  left: 500px;/* Fixed width for form */
+}
+
+/* Label Styles */
+.login label {
+  display: block; /* Block display for labels */
+  margin: 10px 0 5px; /* Margin around labels */
+  font-weight: bold; /* Bold font for labels */
+}
+
+/* Input Styles */
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Inner padding */
+  margin-bottom: 20px; /* Space below inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1em; /* Font size */
+}
+
+/* Button Styles */
+.login button {
+  width: 100%; /* Full width */
+  padding: 10px; /* Inner padding */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1em; /* Font size */
+  transition: background 0.3s; /* Smooth background transition */
+}
+
+.login button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* ************8888registercss */
+.Rform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  margin: 50px auto; 
+  padding: 30px;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#rform {
+  font-size: 24px; 
+  font-weight: bold;
+  margin-bottom: 20px; 
+  color: #333; 
+  text-align: center; 
+}
+
+.Rform input {
+  width: 100%; 
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box; 
+  transition: border-color 0.3s ease; 
+}
+
+
+.Rform input:focus {
+  border-color: #4CAF50; 
+  outline: none;
+}
+
+
+.Rform button {
+  width: 100%; 
+  padding: 12px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.Rform button:hover {
+  background-color: #45a049; 
+}
+
+
+.Rform a {
+  text-decoration: none; 
+  width: 100%; 
+}
+
